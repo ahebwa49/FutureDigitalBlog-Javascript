@@ -30,7 +30,7 @@ the following:
 
 ```
 > git clone https://github.com/ahebwa49/FutureDigitalBlog-Javascript.git
-> cd WeatherForecastApp
+> cd FutureDigitalBlog-Javascript
 > npm install
 > npm start
 ```
