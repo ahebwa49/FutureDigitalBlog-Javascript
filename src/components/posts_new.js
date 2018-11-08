@@ -9,6 +9,7 @@ class PostsNew extends Component{
         <div className="form-group">
           <input
           className="form-control"
+          type="text"
            />
         </div>
       );
