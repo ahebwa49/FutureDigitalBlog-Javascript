@@ -14,6 +14,7 @@ ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
     <BrowserRouter>
       <Switch>
+        <Route path="/posts/new" component={PostsNew} />
         <Route path="/" component={PostsIndex} />
       </Switch>
     </BrowserRouter>
