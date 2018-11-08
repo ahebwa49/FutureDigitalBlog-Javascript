@@ -6,7 +6,9 @@ class PostsNew extends Component{
   render(){
     return(
       <form>
-        
+        <Field
+          name="title"
+         />
       </form>
     );
   }
