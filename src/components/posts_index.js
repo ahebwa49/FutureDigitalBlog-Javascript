@@ -6,7 +6,10 @@ class PostsIndex extends Component{
   render(){
     return(
       <div>
-        <h3>PostsIndex</h3>
+        <h3>Posts</h3>
+        <ul className="list-group">
+          
+        </ul>
       </div>
     );
   }
