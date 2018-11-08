@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import {fetchPosts} from '../actions/index';
+
 
 class PostsIndex extends Component{
   render(){
