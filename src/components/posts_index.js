@@ -9,3 +9,4 @@ class PostsIndex extends Component{
     );
   }
 }
+export default PostsIndex;
