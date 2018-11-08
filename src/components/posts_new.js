@@ -18,6 +18,7 @@ class PostsNew extends Component{
     return(
       <form>
         <Field
+          label="Title"
           name="title"
           component={this.renderField}
          />
