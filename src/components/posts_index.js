@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import React, {Component} from 'react';
 import fetchPosts from '../actions/index';
-import {connect} from 'React-redux';
+import {connect} from 'react-redux';
 
 class PostsIndex extends Component{
   componentDidMount(){
@@ -20,5 +20,8 @@ class PostsIndex extends Component{
       </div>
     );
   }
+}
+function mapStateToProps(state){
+  
 }
 export default connect(null, {fetchPosts})(PostsIndex);
