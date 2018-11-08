@@ -28,4 +28,4 @@ function mapStateToProps(state){
     posts: state.posts
   }
 }
-export default connect(null, {fetchPosts})(PostsIndex);
+export default connect(mapStateToProps, {fetchPosts})(PostsIndex);
