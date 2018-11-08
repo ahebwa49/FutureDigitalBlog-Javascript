@@ -1,6 +1,6 @@
 
 
 
- function fetchPosts(){
+export default function fetchPosts(){
 
 }
