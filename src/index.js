@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import PostsIndex from './components/posts_index';
 
 import reducers from './reducers';
+import ReduxPromise from 'redux-promise';
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
