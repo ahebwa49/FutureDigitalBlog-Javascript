@@ -8,7 +8,7 @@ class PostsIndex extends Component{
       <div>
         <h3>Posts</h3>
         <ul className="list-group">
-          
+          {this.renderPosts()}
         </ul>
       </div>
     );
