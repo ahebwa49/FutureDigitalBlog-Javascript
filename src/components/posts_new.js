@@ -5,7 +5,13 @@ import {Field, reduxForm} from 'redux-form';
 class PostsNew extends Component{
   render(){
     renderField(field){
-
+      return(
+        <div className="form-group">
+          <input
+          className="form-control"
+           />
+        </div>
+      );
     }
     return(
       <form>
