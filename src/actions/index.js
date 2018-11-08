@@ -5,4 +5,8 @@ const API_KEY = '?key=0315PAPERCLIP1234';
 
 export default function fetchPosts(){
 
+  const request = axios.get(`${ROOT_URL}/posts${API_KEY}`);
+
+  
+  }
 }
