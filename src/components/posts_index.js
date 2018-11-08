@@ -5,7 +5,7 @@ import {connect} from 'React-redux';
 
 class PostsIndex extends Component{
   componentDidMount(){
-    
+    this.props.fetchPosts();
   }
   renderPosts(){
 
