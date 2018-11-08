@@ -3,19 +3,20 @@ import {Field, reduxForm} from 'redux-form';
 
 
 class PostsNew extends Component{
+  renderField(field){
+    return(
+      <div className="form-group">
+      <label>{field.label}</label>
+        <input
+          className="form-control"
+          type="text"
+          {...field.input}
+         />
+      </div>
+    );
+  }
   render(){
-    renderField(field){
-      return(
-        <div className="form-group">
-        <label>{field.label}</label>
-          <input
-            className="form-control"
-            type="text"
-            {...field.input}
-           />
-        </div>
-      );
-    }
+
     return(
       <form>
         <Field
@@ -23,6 +24,12 @@ class PostsNew extends Component{
           name="title"
           component={this.renderField}
          />
+        <Field
+           label="Category"
+           name="category"
+           component={this.renderField}
+          />
+
       </form>
     );
   }
