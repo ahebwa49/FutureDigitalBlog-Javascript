@@ -43,6 +43,9 @@ function validate(values){
   if(!values.title){
     errors.title = "Please enter a title"
   }
+  if(!values.category){
+    
+  }
 
   return errors;
 }
