@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import {fetchPost} from '../actions/index';
+import {fetchPost, deletePost} from '../actions/index';
 import {Link} from 'react-router-dom';
 
 
@@ -9,8 +9,8 @@ class PostsShow extends Component{
     const {id} = this.props.match.params;
     this.props.fetchPost(id);
   }
-  onDeleteClick(id){
-    const {id}=this.props.match.params;
+  onDeleteClick(){
+    const {id} = this.props.match.params;
     this.props.deletePost(id);
   }
   render(){
