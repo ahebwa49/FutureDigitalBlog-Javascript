@@ -53,5 +53,6 @@ function validate(values){
   return errors;
 }
 export default reduxForm({
+  validate: validate,
   form: 'FormNewPosts'
 })(PostsNew);
