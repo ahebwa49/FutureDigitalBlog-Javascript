@@ -18,6 +18,7 @@ class PostsShow extends Component{
         <Link to="/">Back to index</Link>
         <button
         className="btn btn-danger pull-xs-right"
+        onClick={}
         >Delete post
         </button>
         <h3>{post.title}</h3>
