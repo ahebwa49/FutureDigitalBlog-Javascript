@@ -21,6 +21,7 @@ class PostsNew extends Component{
     );
   }
   render(){
+    const {handleSubmit} = this.props;
 
     return(
       <form>
