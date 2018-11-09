@@ -11,4 +11,4 @@ class PostsShow extends Component{
     );
   }
 }
-export default PostsShow;
+export default connect(null, {fetchPost})(PostsShow);
