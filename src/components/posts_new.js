@@ -12,7 +12,9 @@ class PostsNew extends Component{
           type="text"
           {...field.input}
          />
+         <div className="text-help">
          {field.meta.touched? field.meta.error: ''}
+         </div>
       </div>
     );
   }
