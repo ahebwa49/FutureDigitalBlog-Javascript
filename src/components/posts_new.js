@@ -20,9 +20,12 @@ class PostsNew extends Component{
       </div>
     );
   }
-  render(){
-    const {handleSubmit} = this.props;
-    
+ onFormSubmit(values) {
+    console.log(values);
+  }
+ render(){
+
+    const { handleSubmit } = this.props;
 
     return(
       <form onSubmit={handleSubmit(this.onFormSubmit.bind(this))}>
