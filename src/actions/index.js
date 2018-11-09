@@ -25,3 +25,6 @@ export function createPost(values, callback){
     payload: request
   };
 }
+export function fetchPost(id){
+  
+}
