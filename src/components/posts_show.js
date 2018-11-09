@@ -9,3 +9,4 @@ class PostsShow extends Component{
     );
   }
 }
+export default PostsShow;
