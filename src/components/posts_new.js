@@ -38,9 +38,11 @@ class PostsNew extends Component{
     );
   }
 }
-function validate(){
+function validate(values){
   const errors = {};
-
+  if(!values.title){
+    
+  }
 
   return errors;
 }
