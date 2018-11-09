@@ -15,4 +15,7 @@ class PostsShow extends Component{
     );
   }
 }
+function mapStateToProps({posts}, ownProps){
+  
+}
 export default connect(null, {fetchPost})(PostsShow);
