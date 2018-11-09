@@ -11,7 +11,9 @@ class PostsShow extends Component{
     const {post} = this.props;
     return(
       <div>
-        PostsShow!
+        <h3>{post.title}</h3>
+        category:<h6>{post.category}</h6>
+        <p>{post.content}</p>
       </div>
     );
   }
