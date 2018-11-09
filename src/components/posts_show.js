@@ -8,6 +8,9 @@ class PostsShow extends Component{
     const {id} = this.props.match.params;
     this.props.fetchPost(id);
   }
+  onDeleteClick(id){
+    
+  }
   render(){
     const {post} = this.props;
     if(!post){
