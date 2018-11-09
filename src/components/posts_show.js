@@ -8,6 +8,7 @@ class PostsShow extends Component{
     this.props.fetchPost(id);
   }
   render(){
+
     return(
       <div>
         PostsShow!
@@ -16,6 +17,6 @@ class PostsShow extends Component{
   }
 }
 function mapStateToProps({posts}, ownProps){
-  
+  return{post: posts[ownProps.match.params.id]}
 }
 export default connect(null, {fetchPost})(PostsShow);
