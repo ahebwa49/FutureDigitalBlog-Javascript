@@ -23,7 +23,7 @@ class PostsNew extends Component{
     );
   }
  onFormSubmit(values) {
-    console.log(values);
+    this.props.createPost(values);
   }
  render(){
 
