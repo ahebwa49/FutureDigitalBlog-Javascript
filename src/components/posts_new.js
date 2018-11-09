@@ -40,7 +40,7 @@ class PostsNew extends Component{
             component={this.renderField}
            />
            <button className="btn btn-primary" type="submit">Submit</button>
-
+           <Link className="btn btn-danger" to="/">Cancel</Link>
       </form>
     );
   }
