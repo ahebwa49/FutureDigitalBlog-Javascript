@@ -41,10 +41,10 @@ class PostsNew extends Component{
 function validate(values){
   const errors = {};
   if(!values.title){
-    errors.title = "Please enter a title"
+    errors.title = "Please enter a title";
   }
   if(!values.category){
-    
+    errors.category = "Please enter a category";
   }
 
   return errors;
