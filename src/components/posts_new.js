@@ -47,7 +47,7 @@ function validate(values){
     errors.category = "Please enter a category";
   }
   if(!values.content){
-    
+    errors.content = "Please enter some content";
   }
 
   return errors;
