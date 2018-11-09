@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import PostsIndex from './components/posts_index';
 import PostsNew from './components/posts_new';
 
+
 import reducers from './reducers';
 import ReduxPromise from 'redux-promise';
 

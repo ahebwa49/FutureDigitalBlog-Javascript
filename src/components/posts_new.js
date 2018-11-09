@@ -38,7 +38,9 @@ class PostsNew extends Component{
     );
   }
 }
-
+function validate(){
+  
+}
 export default reduxForm({
   form: 'FormNewPosts'
 })(PostsNew);
