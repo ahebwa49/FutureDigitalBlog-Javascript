@@ -40,6 +40,9 @@ class PostsNew extends Component{
 }
 function validate(){
   const errors = {};
+
+
+  return errors;
 }
 export default reduxForm({
   form: 'FormNewPosts'
