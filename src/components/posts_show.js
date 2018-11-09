@@ -9,16 +9,19 @@ class PostsShow extends Component{
   }
   render(){
     const {post} = this.props;
+    if(!post){
+    return <div>Loading...</div>;
+  }
     return(
       <div>
         <h3>{post.title}</h3>
-        category:<h6>{post.category}</h6>
+        <h6>category:{post.categories}</h6>
         <p>{post.content}</p>
       </div>
     );
   }
 }
 function mapStateToProps({posts}, ownProps){
-  return{post: posts[ownProps.match.params.id]}
+  return { post: posts[ownProps.match.params.id]};
 }
 export default connect(mapStateToProps, {fetchPost})(PostsShow);
