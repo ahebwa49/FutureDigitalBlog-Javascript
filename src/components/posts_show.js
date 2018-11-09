@@ -8,7 +8,7 @@ class PostsShow extends Component{
     this.props.fetchPost(id);
   }
   render(){
-
+    const {post} = this.props;
     return(
       <div>
         PostsShow!
