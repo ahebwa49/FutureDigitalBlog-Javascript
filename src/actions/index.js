@@ -17,7 +17,7 @@ export default function fetchPosts(){
 }
 export default function createPost(values){
 
-  const request = axios.get(`${ROOT_URL}/posts${API_KEY}`, values);
+  const request = axios.post(`${ROOT_URL}/posts${API_KEY}`, values);
 
   return{
     type: CREATE_POST,
