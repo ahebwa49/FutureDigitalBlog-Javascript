@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import React, {Component} from 'react';
-import fetchPosts from '../actions/index';
+import {fetchPosts} from '../actions/index';
 import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
 

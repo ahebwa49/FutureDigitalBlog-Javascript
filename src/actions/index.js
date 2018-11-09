@@ -8,7 +8,7 @@ export const CREATE_POST = 'create_post';
 const ROOT_URL = 'http://reduxblog.herokuapp.com/api';
 const API_KEY = '?key=0315PAPERCLIP1234';
 
-export default function fetchPosts(){
+export function fetchPosts(){
 
   const request = axios.get(`${ROOT_URL}/posts${API_KEY}`);
 
@@ -34,7 +34,7 @@ export function fetchPost(id){
   return{
     type: FETCH_POST,
     payload: request
-  }
+  };
 }
 
 export function deletePost(id, callback){
