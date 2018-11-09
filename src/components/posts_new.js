@@ -46,6 +46,9 @@ function validate(values){
   if(!values.category){
     errors.category = "Please enter a category";
   }
+  if(!values.content){
+    
+  }
 
   return errors;
 }
