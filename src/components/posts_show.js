@@ -3,6 +3,9 @@ import {connect} from 'react-redux';
 import {fetchPost} from '../actions/index';
 
 class PostsShow extends Component{
+  componentDidMount(){
+    
+  }
   render(){
     return(
       <div>
